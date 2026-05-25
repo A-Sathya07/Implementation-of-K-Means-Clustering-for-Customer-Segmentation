@@ -36,7 +36,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
 # Step 2: Load Dataset
-df = pd.read_csv(r"C:\Users\israv\Downloads\Mall_Customers.csv")
+df = pd.read_csv("Mall_Customers.csv")
 print("Dataset loaded successfully!")
 print(df.head())
 
